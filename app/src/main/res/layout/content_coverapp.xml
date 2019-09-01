@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context="com.example.user.funarabicapps.coverapp">
+
+    <ImageView
+        android:id="@+id/coverhome"
+        android:layout_width="622dp"
+        android:layout_height="314dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/cover" />
+
+    <Button
+        android:id="@+id/mula"
+        android:layout_width="252dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/coverhome"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-23dp"
+        android:background="@drawable/mulabox" />
+</RelativeLayout>
+

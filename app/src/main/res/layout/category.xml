@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/category"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/home"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+tools:context="com.example.user.funarabicapps.Category"
+    >
+
+
+    <ImageView
+        android:id="@+id/home2"
+        android:layout_width="55dp"
+        android:layout_height="49dp"
+        android:layout_gravity="right"
+        app:srcCompat="@drawable/buttonhome"
+        android:tag="ON" />
+
+<Button
+    android:id="@+id/katanamaam1"
+    android:layout_width="196dp"
+    android:layout_height="138dp"
+    android:layout_below="@+id/home2"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="false"
+    android:layout_marginStart="269dp"
+    android:layout_marginLeft="280dp"
+    android:layout_marginTop="173dp"
+    android:background="@drawable/am" />
+
+<Button
+    android:id="@+id/katagantinama1"
+    android:layout_width="199dp"
+    android:layout_height="136dp"
+    android:layout_below="@+id/home2"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginStart="523dp"
+    android:layout_marginLeft="523dp"
+    android:layout_marginTop="175dp"
+    android:background="@drawable/gantinama" />
+
+<Button
+    android:id="@+id/katanamakhas1"
+    android:layout_width="196dp"
+    android:layout_height="131dp"
+    android:layout_below="@+id/home2"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginStart="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="175dp"
+    android:background="@drawable/khas" />
+
+    <ImageView
+        android:id="@+id/katanama1"
+        android:layout_width="298dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/home2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="224dp"
+        android:layout_marginLeft="224dp"
+        android:layout_marginTop="-57dp"
+        app:srcCompat="@drawable/katanamabox" />
+
+<ImageView
+    android:id="@+id/definisikatanama"
+    android:layout_width="529dp"
+    android:layout_height="189dp"
+    android:layout_below="@+id/home2"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginStart="104dp"
+    android:layout_marginLeft="104dp"
+    android:layout_marginTop="-14dp"
+    app:srcCompat="@drawable/definisikatanama" />
+
+    <Button
+        android:id="@+id/sound2"
+        android:layout_width="68dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="647dp"
+        android:layout_marginLeft="647dp"
+        android:background="@drawable/soundcute" />
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homee"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.funarabicapps.Register">
+
+    <Button
+        android:id="@+id/mudah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/boxxx"
+        android:elevation="0dp"
+        android:fontFamily="@font/carter_one"
+        android:freezesText="true"
+        android:text="MUDAH"
+        android:textColor="@android:color/background_dark"
+        android:textColorLink="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/soundcategory"
+        android:layout_width="84dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="632dp"
+        android:layout_marginLeft="632dp"
+        android:background="@drawable/soundcute" />
+
+
+    <Button
+        android:id="@+id/sukar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sederhana"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/boxxx"
+        android:fontFamily="@font/carter_one"
+        android:text="SUKAR"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sederhana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mudah"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/boxxx"
+        android:fontFamily="@font/carter_one"
+        android:text="SEDERHANA"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/homecategory"
+        android:layout_width="62dp"
+        android:layout_height="67dp"
+        android:layout_gravity="right"
+        app:srcCompat="@drawable/buttonhome"
+        android:tag="ON" />
+
+
+</RelativeLayout>

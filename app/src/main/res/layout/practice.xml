@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/practice"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.funarabicapps.practice">
+
+    <Button
+        android:id="@+id/homepractice"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonhome" />
+
+    <ImageView
+        android:id="@+id/rightbottom1"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+
+        android:layout_below="@+id/textViewpractice1"
+        android:layout_alignStart="@+id/righttop1"
+        android:layout_alignLeft="@+id/righttop1"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="-170dp"
+        app:srcCompat="@drawable/latar" />
+
+    <ImageView
+        android:id="@+id/leftbottom"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textViewpractice1"
+        android:layout_alignTop="@+id/rightbottom1"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/rightbottom1"
+        android:layout_toRightOf="@+id/rightbottom1"
+        app:srcCompat="@drawable/latar" />
+
+    <ImageView
+        android:id="@+id/righttop1"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textViewpractice1"
+        android:layout_marginStart="196dp"
+        android:layout_marginLeft="196dp"
+        android:layout_marginTop="134dp"
+        android:layout_marginBottom="22dp"
+        android:layout_toEndOf="@+id/homepractice"
+        android:layout_toRightOf="@+id/homepractice"
+        app:srcCompat="@drawable/latar" />
+
+    <ImageView
+        android:id="@+id/lefttop1"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textViewpractice1"
+        android:layout_alignTop="@+id/righttop1"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/righttop1"
+        android:layout_toRightOf="@+id/righttop1"
+        app:srcCompat="@drawable/latar" />
+
+    <Button
+        android:id="@+id/arrowpractice"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/arrowcute"
+        android:editable="false"
+        android:gravity="center|center_horizontal|center_vertical" />
+
+    <TextView
+        android:id="@+id/textViewpractice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+
+</RelativeLayout>

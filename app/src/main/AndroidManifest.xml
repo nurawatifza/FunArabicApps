@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.funarabicapps">
+
+    <uses-sdk android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/arabic"
+        android:label="@string/app_name"
+        android:noHistory="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".coverapp"
+            android:label="@string/title_activity_coverapp"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".practicesusah"
+            android:label="@string/title_activity_practicesusah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".practicesederhana"
+            android:label="@string/title_activity_practicesederhana"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KategoriSoalan"
+            android:label="@string/title_activity_kategori_soalan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".katagantinama">
+            <intent-filter>
+                <action android:name="com.example.user.funarabicapps.katagantinama" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Category">
+            <intent-filter>
+                <action android:name="com.example.user.funarabicapps.Category" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Learn">
+            <intent-filter>
+                <action android:name="com.example.user.funarabicapps.Learn" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".practice">
+            <intent-filter>
+                <action android:name="com.example.user.funarabicapps.practice" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Animal">
+            <intent-filter>
+                <action android:name="com.example.user.funarabicapps.Animal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AnimalVoice1">
+            <intent-filter>
+                <action android:name="com.example.user.funarabicapps.AnimalVoice1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Learn2">
+            <intent-filter>
+                <action android:name="com.example.user.funarabicapps.Learn2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Family" />
+        <activity android:name=".FamilyVoice" />
+        <activity android:name=".Transport" />
+        <activity android:name=".TransportVoice" />
+        <activity android:name=".Fruit" />
+        <activity android:name=".FruitVoice" />
+        <activity android:name=".Body" />
+        <activity android:name=".BodyVoice" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".RegisterActivity">
+            <intent-filter>
+                <action android:name="com.example.user.funarabicapps.RegisterActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="com.example.user.funarabicapps.Register" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

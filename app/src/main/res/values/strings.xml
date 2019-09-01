@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FunArabicApps</string>
+    <string name="title_activity_kategori_soalan">KategoriSoalan</string>
+    <string name="title_activity_practicesederhana">practicesederhana</string>
+    <string name="title_activity_practicesusah">practicesusah</string>
+    <string name="title_activity_coverapp">coverapp</string>
+</resources>

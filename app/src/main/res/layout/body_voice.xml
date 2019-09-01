@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/body_voice"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home"
+    android:orientation="vertical"
+    tools:context="com.example.user.funarabicapps.BodyVoice">
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/homeiconnnn" />
+
+
+    <Button
+        android:id="@+id/forward_btn"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
+        android:layout_marginBottom="51dp"
+        android:background="@drawable/arrowright" />
+
+    <Button
+        android:id="@+id/backward_btn"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/ImageViewPreview"
+        android:layout_alignLeft="@+id/ImageViewPreview"
+        android:layout_alignBottom="@+id/forward_btn"
+        android:layout_marginStart="-122dp"
+        android:layout_marginLeft="-122dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/arrowleft" />
+
+    <ImageView
+        android:id="@+id/ImageViewPreview"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/cute" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ImageViewPreview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="casual"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backward_btn"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="casual"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+
+</RelativeLayout>
+
